@@ -97,7 +97,7 @@ send verification: sendEmailVerification
 reset password: sendPasswordResetEmail
 update profile: updateProfile
 
-## Forms & validation
+### Forms & validation
 
 ### Validation logic is embedded in the components:
 
@@ -122,6 +122,6 @@ Add unit & integration tests for auth flows and components.
 Fork the repo, create a branch, and open a PR.
 Run npm run lint and npm run type-check before submitting.
 
-### License
+#### License
 
 This project is provided as-is. See package.json for metadata.

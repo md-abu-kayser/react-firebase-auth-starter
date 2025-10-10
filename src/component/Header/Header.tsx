@@ -1,11 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-interface HeaderProps {
-  // Add any props if needed
-}
-
-const Header: React.FC<HeaderProps> = () => {
+const Header: React.FC = () => {
   return (
     <nav className="bg-blue-600 p-4 text-white">
       <Link to="/" className="mr-5 hover:text-blue-200">

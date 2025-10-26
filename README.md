@@ -1,4 +1,4 @@
-# Email Password Auth (React | Vite | Firebase)
+# Email Password Auth | React + Vite + Firebase
 
 A minimal, production-ready starter for email/password authentication using React, Vite, Firebase Auth, and Tailwind CSS. This repo demonstrates clean routing, form validation, and email verification flows - ideal for showcasing authentication work to clients or hiring managers.
 
@@ -67,9 +67,11 @@ A minimal, production-ready starter for email/password authentication using Reac
 ## Installation
 
 1. **Clone the repo and install dependencies:**
-   git clone https://github.com/go-kawser/email-password-auth.git
-   cd email-password-auth
-   npm install
+
+- git clone https://github.com/go-kawser/email-password-auth.git
+- cd email-password-auth
+  npm install
+
 2. **Run dev server:**
    npm run dev
 

@@ -28,17 +28,14 @@ module.exports = {
   plugins: ["react", "react-refresh", "@typescript-eslint"],
   ignorePatterns: ["dist", "node_modules", ".eslintrc.cjs"],
   rules: {
-    // React refresh for Vite HMR
     "react-refresh/only-export-components": [
       "warn",
       { allowConstantExport: true },
     ],
 
-    // TypeScript improvements
     "@typescript-eslint/no-unused-vars": ["warn"],
     "@typescript-eslint/no-explicit-any": "off",
 
-    // React/JSX quality
     "react/prop-types": "off",
   },
 };

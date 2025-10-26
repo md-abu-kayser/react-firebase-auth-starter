@@ -1,6 +1,6 @@
-# Email Password Auth (React + Vite + Firebase)
+# Email Password Auth (React | Vite | Firebase)
 
-"A minimal, production-ready starter for email/password authentication using React, Vite, Firebase Auth, and Tailwind CSS. This repo demonstrates clean routing, form validation, and email verification flows — ideal for showcasing authentication work to clients or hiring managers."
+A minimal, production-ready starter for email/password authentication using React, Vite, Firebase Auth, and Tailwind CSS. This repo demonstrates clean routing, form validation, and email verification flows - ideal for showcasing authentication work to clients or hiring managers.
 
 ## Highlights
 
@@ -9,7 +9,7 @@
 - Central layout and routing using React Router (see [`Main`](src/Layout/Main.tsx) and [`src/main.tsx`](src/main.tsx)).
 - TypeScript typings for core shapes (see [`User`](src/index.ts), [`AuthState`](src/index.ts), [`FormData`](src/index.ts)).
 - Tailwind CSS + optional Bootstrap utilities for fast UI.
-- ESLint configured for React + TypeScript + React Refresh.
+- ESLint configured for React | TypeScript | React Refresh.
 
 ## Quick demo
 
@@ -19,16 +19,16 @@
 
 ## Tech stack
 
-- Vite — build & dev tooling ([vite.config.ts](vite.config.ts))
-- React 18 — UI
-- TypeScript — types & safety
-- Firebase Auth — authentication ([firebase.config.ts](src/firebase/firebase.config.ts))
-- Tailwind CSS — utility-first styling ([tailwind.config.js](tailwind.config.js), [postcss.config.js](postcss.config.js))
-- ESLint — linting ([.eslintrc.cjs](.eslintrc.cjs))
+- Vite - build and dev tooling ([vite.config.ts](vite.config.ts))
+- React 18 - UI
+- TypeScript - types and safety
+- Firebase Auth - authentication ([firebase.config.ts](src/firebase/firebase.config.ts))
+- Tailwind CSS - utility-first styling ([tailwind.config.js](tailwind.config.js), [postcss.config.js](postcss.config.js))
+- ESLint - linting ([.eslintrc.cjs](.eslintrc.cjs))
 
-## Project structure
+## Project Structure
 
-- Entry & routing: [`src/main.tsx`](src/main.tsx)
+- Entry and routing: [`src/main.tsx`](src/main.tsx)
 - Layout: [`src/Layout/Main.tsx`](src/Layout/Main.tsx) + [`src/Layout/Main.css`](src/Layout/Main.css)
 - Components:
   - [`Header`](src/component/Header/Header.tsx) (styles: [`Header.css`](src/component/Header/Header.css))
@@ -39,7 +39,7 @@
 - Types: [`src/index.ts`](src/index.ts)
 - Styles: [`src/index.css`](src/index.css)
 
-## Full file listing:
+## Full File Listing:
 
 - [index.html](index.html)
 - [package.json](package.json)
@@ -66,20 +66,20 @@
 
 ## Installation
 
-1. Clone the repo and install dependencies:
-   git clone https://github.com/Kawser420/email-password-auth.git
+1. **Clone the repo and install dependencies:**
+   git clone https://github.com/go-kawser/email-password-auth.git
    cd email-password-auth
    npm install
-2. Run dev server:
+2. **Run dev server:**
    npm run dev
 
 ### Available scripts
 
-npm run dev — start dev server
-npm run build — production build
-npm run preview — preview build
-npm run lint — run ESLint
-npm run type-check — TypeScript type-check only
+npm run dev - start dev server
+npm run build - production build
+npm run preview - preview build
+npm run lint - run ESLint
+npm run type-check - TypeScript type-check only
 
 ### Firebase configuration
 
@@ -89,7 +89,7 @@ The Firebase app is created in src/firebase/firebase.config.ts. Replace the conf
 
 default export app from src/firebase/firebase.config.ts
 
-###
+### Project Register | Sign In
 
 create user: createUserWithEmailAndPassword used in Resister
 sign in: signInWithEmailAndPassword used in Login
@@ -97,7 +97,7 @@ send verification: sendEmailVerification
 reset password: sendPasswordResetEmail
 update profile: updateProfile
 
-### Forms & validation
+### Forms and validation
 
 ### Validation logic is embedded in the components:
 
@@ -105,23 +105,19 @@ update profile: updateProfile
 - Login validation: Login
   "These are intentionally simple and client-side only. For production, pair them with backend checks and stronger password policies."
 
-## Styling
+### Styling
 
 - Tailwind entry: src/index.css
 - Tailwind config: tailwind.config.js
 - Bootstrap included from CDN via package: see import in src/main.tsx
 
-### Notes & best practices
+#### Notes and Best Practices
 
 Do not commit real Firebase credentials in public repos. Use environment variables or a server-side proxy for production.
 Expand auth flows to use secure token handling and server-side rules for sensitive operations.
-Add unit & integration tests for auth flows and components.
+Add unit and integration tests for auth flows and components.
 
-### Contributing
+#### Contributing
 
 Fork the repo, create a branch, and open a PR.
 Run npm run lint and npm run type-check before submitting.
-
-#### License
-
-This project is provided as-is. See package.json for metadata.

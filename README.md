@@ -1,4 +1,4 @@
-# Email Password Auth | React + Vite + Firebase
+# EmailAuthPro - React + Vite + Firebase Authentication Starter
 
 A minimal, production-ready starter for email/password authentication using React, Vite, Firebase Auth, and Tailwind CSS. This repo demonstrates clean routing, form validation, and email verification flows - ideal for showcasing authentication work to clients or hiring managers.
 
@@ -68,8 +68,7 @@ A minimal, production-ready starter for email/password authentication using Reac
 
 1. **Clone the repo and install dependencies:**
 
-- git clone https://github.com/go-kawser/email-password-auth.git
-- cd email-password-auth
+- git clone https://github.com/md-abu-kayser/EmailAuthPro-React-and-Firebase-Starter.git
   npm install
 
 2. **Run dev server:**
@@ -115,14 +114,31 @@ update profile: updateProfile
 
 #### Notes and Best Practices
 
-Do not commit real Firebase credentials in public repos. Use environment variables or a server-side proxy for production.
-Expand auth flows to use secure token handling and server-side rules for sensitive operations.
-Add unit and integration tests for auth flows and components.
+- Do not commit real Firebase credentials in public repos. Use environment variables or a server-side proxy for production.
+- Expand auth flows to use secure token handling and server-side rules for sensitive operations.
+- Add unit and integration tests for auth flows and components.
 
-#### Contributing and Contact
+### License
 
-- Fork the repo, create a branch, and open a PR.
-- Run npm run lint and npm run type-check before submitting.
-- **Email:** abu.kayser.official@gmail.com
+- This project is licensed under the terms of the **[MIT License](./LICENSE)**.
+- You may replace or update the license as needed for client or proprietary projects.
+
+---
+
+### Contact and Maintainer
+
+**Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)  
+**Name:** Md Abu Kayser - Full-Stack Engineer
+
+- **GitHub:** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
+- **Email:** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
+- **Project:** _EmailAuthPro-React-and-Firebase-Starter_
+
+If you’d like this README tailored for a specific purpose - such as **hiring managers**, **open-source contributors**, or **client deliverables** - feel free to request a custom tone or format.
+
+---
+
+**Thank you for reviewing this project!**  
+It’s designed to be **clean, well-structured**, and **pleasant to explore** - perfect for showcases, or professional demos.
 
 ---

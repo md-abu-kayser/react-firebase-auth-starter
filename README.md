@@ -131,10 +131,10 @@ update profile: updateProfile
 ### Contact and Maintainer
 
 - **_Name:_** Md Abu Kayser - Full-Stack Engineer
-- **\_Project:** _EmailAuthPro-React-and-Firebase-Starter_
-- **\_Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)
-- **\_GitHub:** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
-- **\_Email:** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
+- **_Project:_** EmailAuthPro-React-and-Firebase-Starter\_
+- **_Maintainer:_** [md-abu-kayser](https://github.com/md-abu-kayser)
+- **_GitHub:_** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
+- **_Email:_** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
 
 If you’d like this README tailored for a specific purpose - such as **hiring managers**, **open-source contributors**, or **client deliverables** - feel free to request a custom tone or format.
 

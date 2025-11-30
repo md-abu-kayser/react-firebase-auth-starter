@@ -68,11 +68,14 @@ A minimal, production-ready starter for email/password authentication using Reac
 
 1. **Clone the repo and install dependencies:**
 
-```
+```bash
 git clone https://github.com/md-abu-kayser/EmailAuthPro-React-and-Firebase-Starter.git
 ```
 
+```bash
 npm install
+
+```
 
 2. **Run dev server:**
    npm run dev

@@ -100,7 +100,7 @@ The Firebase app is created in src/firebase/firebase.config.ts. Replace the conf
 
 default export app from src/firebase/firebase.config.ts
 
-### Project Register | Sign In
+### Project Register - Sign In
 
 create user: createUserWithEmailAndPassword used in Resister
 sign in: signInWithEmailAndPassword used in Login
@@ -122,7 +122,7 @@ update profile: updateProfile
 - Tailwind config: tailwind.config.js
 - Bootstrap included from CDN via package: see import in src/main.tsx
 
-#### Notes and Best Practices
+### Notes and Best Practices
 
 - Do not commit real Firebase credentials in public repos. Use environment variables or a server-side proxy for production.
 - Expand auth flows to use secure token handling and server-side rules for sensitive operations.

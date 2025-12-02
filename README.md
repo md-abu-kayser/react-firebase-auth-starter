@@ -69,7 +69,7 @@ A minimal, production-ready starter for email/password authentication using Reac
 1. **Clone the repo and install dependencies:**
 
 ```bash
-git clone https://github.com/md-abu-kayser/EmailAuthPro-React-and-Firebase-Starter.git
+git clone https://github.com/md-abu-kayser/react-email-auth-pro.git
 ```
 
 ```bash
@@ -84,45 +84,45 @@ npm install
 
 ```
 
-### Available scripts
+## Available Scripts
 
-npm run dev - start dev server
-npm run build - production build
-npm run preview - preview build
-npm run lint - run ESLint
-npm run type-check - TypeScript type-check only
+- npm run dev - start dev server
+- npm run build - production build
+- npm run preview - preview build
+- npm run lint - run ESLint
+- npm run type-check - TypeScript type-check only
 
-### Firebase configuration
+## Firebase Configuration
 
-The Firebase app is created in src/firebase/firebase.config.ts. Replace the config object with your own Firebase project values to avoid exposing credentials in public projects.
+> The Firebase app is created in src/firebase/firebase.config.ts. Replace the config object with your own Firebase project values to avoid exposing credentials in public projects.
 
-### Primary exported API used in the app:
+## Primary exported API used in the app:
 
-default export app from src/firebase/firebase.config.ts
+> default export app from src/firebase/firebase.config.ts
 
-### Project Register - Sign In
+## Project Register - Sign In
 
-create user: createUserWithEmailAndPassword used in Resister
-sign in: signInWithEmailAndPassword used in Login
-send verification: sendEmailVerification
-reset password: sendPasswordResetEmail
-update profile: updateProfile
+- **create user:** createUserWithEmailAndPassword used in Resister
+- **sign in:** signInWithEmailAndPassword used in Login
+- **send verification:** sendEmailVerification
+- **reset password:** sendPasswordResetEmail
+- **update profile:** updateProfile
 
 ### Forms and validation
 
-### Validation logic is embedded in the components:
+1. **Validation logic is embedded in the components:**
 
-- SignUp validation: Resister
-- Login validation: Login
+- **SignUp validation:** Resister
+- **Login validation:** Login
   "These are intentionally simple and client-side only. For production, pair them with backend checks and stronger password policies."
 
-### Styling
+2. **Styling**
 
-- Tailwind entry: src/index.css
-- Tailwind config: tailwind.config.js
-- Bootstrap included from CDN via package: see import in src/main.tsx
+- **Tailwind entry:** src/index.css
+- **Tailwind config:** tailwind.config.js
+- **Bootstrap included from CDN via package:** see import in src/main.tsx
 
-### Notes and Best Practices
+3. **Notes and Best Practices**
 
 - Do not commit real Firebase credentials in public repos. Use environment variables or a server-side proxy for production.
 - Expand auth flows to use secure token handling and server-side rules for sensitive operations.
@@ -147,7 +147,6 @@ If you’d like this README tailored for a specific purpose - such as **hiring m
 
 ---
 
-**Thank you for reviewing this project!**  
-It’s designed to be **clean, well-structured**, and **pleasant to explore** - perfect for showcases, or professional demos.
+**Thank you for reviewing this project!**
 
 ---

@@ -1,4 +1,4 @@
-# EmailAuthPro - React with Firebase Authentication Starter
+# React + Firebase Authentication Starter (Email/Password)
 
 A minimal, production-ready starter for email/password authentication using React, Vite, Firebase Auth, and Tailwind CSS. This repo demonstrates clean routing, form validation, and email verification flows - ideal for showcasing authentication work to clients or hiring managers.
 

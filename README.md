@@ -1,7 +1,5 @@
 # React + Firebase Authentication Starter (Email/Password)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
-
 A minimal, production-ready starter for email/password authentication using React, Vite, Firebase Auth, and Tailwind CSS. This repo demonstrates clean routing, form validation, and email verification flows - ideal for showcasing authentication work to clients or hiring managers.
 
 ## Highlights
@@ -71,7 +69,7 @@ A minimal, production-ready starter for email/password authentication using Reac
 1. **Clone the repo and install dependencies:**
 
 ```bash
-git clone https://github.com/md-abu-kayser/react-email-auth-pro.git
+git clone https://github.com/md-abu-kayser/react-firebase-auth-starter.git
 ```
 
 ```bash
@@ -140,7 +138,7 @@ npm install
 ### Contact and Maintainer
 
 - **_Name:_** Md Abu Kayser - Full-Stack Engineer
-- **_Project:_** _react-email-auth-pro_
+- **_Project:_** _react-firebase-auth-starter_
 - **_Maintainer:_** [md-abu-kayser](https://github.com/md-abu-kayser)
 - **_GitHub:_** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
 - **_Email:_** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)

@@ -1,5 +1,5 @@
 {
-  "name": "react-email-auth-pro",
+  "name": "react-firebase-auth-starter",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -43,13 +43,13 @@
   "main": "postcss.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/md-abu-kayser/react-email-auth-pro.git"
+    "url": "git+https://github.com/md-abu-kayser/react-firebase-auth-starter.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/md-abu-kayser/react-email-auth-pro/issues"
+    "url": "https://github.com/md-abu-kayser/react-firebase-auth-starter/issues"
   },
-  "homepage": "https://github.com/md-abu-kayser/react-email-auth-pro#readme"
+  "homepage": "https://github.com/md-abu-kayser/react-firebase-auth-starter#readme"
 }

@@ -34,6 +34,23 @@
 
 [![Vite](https://img.shields.io/badge/Vite-646cff?logo=vite&logoColor=white)](https://vite.dev/)
 
+## Plain docs links
+
+- HTML (MDN) docs: [https://developer.mozilla.org/en-US/docs/Web/HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- CSS (MDN) docs: [https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- PostCSS docs / postcss.config: [https://postcss.org/](https://postcss.org/)
+- Bootstrap docs: [https://getbootstrap.com/](https://getbootstrap.com/)
+- JavaScript (MDN) docs: [https://developer.mozilla.org/en-US/docs/Web/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- ECMAScript (spec, ECMA-262) docs: [https://www.ecma-international.org/publications-and-standards/standards/ecma-262/](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
+- TypeScript docs: [https://www.typescriptlang.org/docs/](https://www.typescriptlang.org/docs/)
+- Node.js docs: [https://nodejs.org/](https://nodejs.org/)
+- React docs: [https://react.dev/](https://react.dev/)
+- ESLint docs: [https://eslint.org/docs/latest/](https://eslint.org/docs/latest/)
+- Prettier docs: [https://prettier.io/docs/](https://prettier.io/docs/)
+- Vite docs: [https://vite.dev/](https://vite.dev/)
+
+---
+
 A minimal, production-ready starter for email/password authentication using React, Vite, Firebase Auth, and Tailwind CSS. This repo demonstrates clean routing, form validation, and email verification flows - ideal for showcasing authentication work to clients or hiring managers.
 
 ## Highlights

@@ -137,11 +137,11 @@ npm install
 
 ### Contact and Maintainer
 
-- **_Name:_** Md Abu Kayser - Full-Stack Engineer
 - **_Project:_** _react-firebase-auth-starter_
+- **_Name:_** Md Abu Kayser - Full-Stack Engineer
 - **_Maintainer:_** [md-abu-kayser](https://github.com/md-abu-kayser)
-- **_Email:_** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
 - **_GitHub:_** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
+- **_Email:_** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
 
 If you’d like this README tailored for a specific purpose - such as **hiring managers**, **open-source contributors**, or **client deliverables** - feel free to request a custom tone or format.
 
